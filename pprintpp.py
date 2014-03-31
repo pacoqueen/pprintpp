@@ -1,14 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import os
 import ast
 import sys
 import warnings
 
 from cStringIO import StringIO
-
-__all__ = [
-    "pprint", "pformat", "isreadable", "isrecursive", "saferepr",
-    "PrettyPrinter",
-]
 
 
 def pprint(object, stream=None, indent=4, width=80, depth=None):
